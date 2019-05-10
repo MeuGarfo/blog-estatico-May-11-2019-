@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<todo version="0.1.20">
+    <note priority="medium" time="1557516419">
+        editor.php create
+    </note>
+    <note priority="medium" time="1557516433">
+        editor.php update
+    </note>
+    <note priority="medium" time="1557516442">
+        editor.php delete
+    </note>
+    <note priority="medium" time="1557517039">
+        signin.php com cookie
+    </note>
+    <note priority="medium" time="1557517048">
+        logout.php
+    </note>
+    <note priority="medium" time="1557517080">
+        basic/env
+    </note>
+    <note priority="medium" time="1557517198">
+        basic/view
+    </note>
+</todo>

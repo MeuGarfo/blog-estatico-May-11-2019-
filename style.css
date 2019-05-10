@@ -1,0 +1,224 @@
+.center{
+	text-align:center;
+}
+button{
+    cursor:pointer;
+    display:block;
+    margin:0.75em auto;
+}
+input[type=email],input[type=password],input[type=text],select,textarea{
+    display:block;
+    width:calc(100% - 2px);
+    width:100%;
+}
+label{
+    cursor:pointer;
+    display:block;
+    font-weight:bold;
+    width:100%;
+}
+/*fix by http://browserhacks.com*/
+@supports (-moz-appearance:meterbar) {
+    input[type=email],input[type=password],input[type=text]{
+        width:calc(100% - 1.5em);
+    }
+    select{
+        margin-left: -1px;
+        width:calc(100% - 0.5em);
+    }
+    textarea{
+        width:calc(100% - 1em);
+    }
+}
+/*desktop*/
+@media ( min-width : 1024px) {
+    .desktop{
+        display:block;
+        visibility: visible;
+    }
+    .r {
+        width:auto;
+    }
+
+    .r:before,
+    .r:after {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+
+    .r:after {
+        clear: both;
+    }
+    .r > [class*="g"] {
+        display: block;
+        float: left;
+        width: 100%;
+        min-height: 30px;
+        margin-left: 0.75%;
+    }
+
+    .r > [class*="g"]:first-child {
+        margin-left: 0;
+    }
+    .r .g12 {
+        width: 100%;
+    }
+
+    .r .g11 {
+        width: 91.4%;
+    }
+
+    .r .g10 {
+        width: 82.9%;
+    }
+
+    .r .g9 {
+        width: 74.4%;
+    }
+
+    .r .g8 {
+        width: 65.9%;
+    }
+
+    .r .g7 {
+        width: 57.4%;
+    }
+
+    .r .g6 {
+        width: 48.9%;
+    }
+
+    .r .g5 {
+        width: 40.4%;
+    }
+
+    .r .g4 {
+        width: 31.9%;
+    }
+
+    .r .g3 {
+        width: 23.4%;
+    }
+
+    .r .g2 {
+        width: 14.8%;
+    }
+
+    .r .g1 {
+        width: 6.3%;
+    }
+
+    .c {
+        width:100%;
+    }
+}
+/*mobile*/
+@media ( max-width : 1024px) {
+    .desktop{
+        display: none;
+        visibility: hidden;
+    }
+    .c {
+        margin: 0;
+        width: 100%;
+    }
+    [class*="g"] {
+        display: block;
+        float: none;
+        padding: 0 10px;
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+/*medium*/
+body{
+    font-size: 21px;
+}
+h1,h2,h3{
+    text-align:center;
+}
+h1,h2,h3,h4{
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-feature-settings: "liga";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.11667px;
+    line-height: 41.6px;
+    margin-bottom: 0px;
+    margin-left: -2.5px;
+    margin-right: 0px;
+    margin-top:0.5em;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    visibility: visible;
+}
+p,li,td{
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-feature-settings: "liga";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.1833px;
+}
+p {
+    clearleftcolor: rgba(0, 0, 0, 0.8);
+    font-feature-settings: "liga";
+    letter-spacing: -0.0666667px;
+    margin:14px 0;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    visibility: visible;
+}
+pre code{
+    background:#f6f6f6;
+    display:block;
+    font-family:monospace;
+    padding:0.5em;
+    width:calc(100% - 1em);
+}
+blockquote p{
+    background:#f6f6f6;
+    border-left:1em #dcdcdc solid;
+    font-style: italic;
+    font-weight:bold;
+    margin-left:-2em;
+    padding:0.5em;
+    width:calc(100% + 2em);
+}
+blockquote,small{
+    color:gray;
+}
+a{
+    color:blue;
+}
+a:hover{
+    color:#333;
+}
+h1{
+    font-size:2.5em;
+    text-align:center;
+}
+hr{
+    border:0;
+    border-bottom:0.1em dotted black;
+}
+img{
+    display:block;
+    margin:0 auto;
+    max-width:100%;
+}
+em,i,small{
+    color:gray;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
