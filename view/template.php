@@ -14,7 +14,7 @@
 			<div class="g6">
 				<h1>Anderson Ismael</h1>	
 				<h2><?php print $title;?></h2>
-				<p><i><?php print $data;?></i></p>
+				<p class="center"><i><?php print $data;?></i></p>
 				<?php print $content;?>
 				<p class="center"><a href=".">Posts</a></p>
 			</div>
